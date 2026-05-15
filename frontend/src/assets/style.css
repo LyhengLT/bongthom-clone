@@ -1,0 +1,415 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-titles {
+    display: flex;
+    align-items: baseline;
+}
+
+#headertext1 {
+    color: #066;
+    font-size: 50px;
+    font-family: Arial Black, Arial, sans-serif;
+}
+#headertext2 {
+    color: #003399;
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: 100;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+.header-tagline {
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-left: 132px;
+    color: #222;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+/* Main Header Styles */
+.main-header {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 83%;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 20%;
+    vertical-align: top;
+}
+
+.sidebar-table {
+    width: 100%;
+}
+
+/* Row ti 1 for Khmer */
+.row-1 {
+    background-color: #E0E8F8;
+    width: 100%;
+    border-collapse: collapse;
+}
+.row-1 td {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    height: 17px;
+}
+/*Close Row ti 1 for Khmer*/
+
+.row-2 {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse:separate;
+    border-spacing: 1px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.row-2 td {
+    width: 20%;
+    background-color: #FFE8E8;
+    border-radius: 2px;
+    vertical-align: middle;
+    text-align: center;
+    height: 50px;
+}
+
+.row-2 td.login-bars {
+    background-color: #e6f0ff;
+}
+
+/* Styles for login bars */
+.login-bars a {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.login-bars img {
+    vertical-align: middle;
+    margin-right: 3px;
+    width: 12px;
+    height: auto;
+}
+
+.row-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.row-item img {
+    width: 36px;
+    height: auto;
+}
+
+.row-item a {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.3;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+/*Close style for Row 2 (login row)*/
+.main-body {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.quicklink {
+    background-color: #E0E8F8;
+    font-weight: bold;
+    padding: 3px 4px;
+    text-align: center;
+}
+
+tr.quicklink td {
+    color: #800000;
+    font-size: 16px;
+}
+
+.search {
+    background-color: #ffd6d6;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.searchbox {
+    border: 1px solid #c0c0c0;
+    height: 25px;
+    width: 30px;
+}
+/*The word (New) in red color*/
+.new {
+    color: red;
+}
+/* Styles for info in left side bar Under Bongthom ID) */
+.leftinfo {
+    background-color: #FFE8E8;
+    font-size: 12px;
+}
+.leftinfo a {
+    color: #000000;
+}
+
+#facebookicon {
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+#facebookicon td {
+    vertical-align: top;
+    height: 40px;
+}
+#facebookicon img {
+    height: 40px;
+    float: left;
+}
+#facebookicon a {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+/*Close style for info in left side bar Under Bongthom ID) */
+.joblist {
+    color: #800000;
+    background-color: #E0E8F8;
+    font-weight: bold;
+    text-align: center;
+}
+/*style Organization */
+.organization {
+    background-color: #E0E8F8;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.schedule {
+    background-color: #E0E8F8;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.other-announcements {
+    background-color: #E0E8F8;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+/* fix */
+.rss-icon {
+    width: 14px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.sidebar-note {
+    font-size: 10px;
+    color: #444;
+}
+
+#jobcatergory {
+    background-color: #ffffd0;
+}
+
+#click-here {
+    background-color: #ffe8e8;
+    font-size: 11px;
+    text-align: center;
+}
+
+#click-here a{
+    color: #800000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*fix*/
+.rss-files {
+    background-color: #E0E8F8;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.rss-info {
+    background-color: #ffe8e8;
+    font-size: 11px;
+}
+
+.rss-info a {
+    text-decoration: underline;
+}
+
+.header-title-body {
+    background-color: #E0E8F8;
+    text-align: center;
+    font-weight: bold;
+    height: 34px;
+}
+
+.search1 {
+    background-color: #ffd6d6;
+    height: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.search1 td {
+    height: 25px;
+}
+
+.searchbox1 {
+    border: 1px solid #c0c0c0;
+    height: 35px;
+    width: 135px;
+}
+
+.jobs-background {
+    background-color: #EFF7F8;
+    font-size: 12px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.jobs-background a {
+    text-decoration: underline;
+}
+
+.jobs-background em img {
+    vertical-align: middle;
+    padding-left: 10px;
+    height: 10px;
+    width: auto;
+}
+.header-title-right {
+    background-color: #E0E8F8;
+    text-align: center;
+    font-weight: bold;
+    height: 34px;
+}
+
+.view-alljobs {
+    text-align: center;
+    padding: 5px;
+    background-color: #EFF7F8;
+}
+
+.search2 {
+    background-color: #ffd6d6;
+    height: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.search2 td {
+    height: 25px;
+}
+
+.searchbox2 {
+    border: 1px solid #C0C0C0;
+    height: 35px;
+    width: 135px;
+}
+
+/*Bit Center bOx*/
+
+/*Classified row*/
+
+.classified-background {
+    background-color: #F3E8FF;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+.classified-background li {
+    padding-bottom: 4px;
+}
+
+.classified-background a{
+    text-decoration: underline;
+}
+
+.view-alljobs {
+    text-align: center;
+    padding: 5px;
+    background-color: #EFF7F8;
+}
+
+.view-allclassifieds {
+    text-align: center;
+    padding: 5px;
+    background-color: #f3e9ff;
+}
+
+.view-alljobs a{
+    color: black;
+    font-size: 12px;
+}
+
+.view-allclassifieds a{
+    color: black;
+    font-size: 12px;
+}
+
+/*បិទ Classified*/
+
+/*Footer mdong*/
+.footer {
+    width: 60;
+    margin: 0 auto;
+}
+
+.footer-links {
+    text-align: center;
+    font-family: Papyrus, Arial, sans-serif;
+    font-size: 11px;
+    padding: 4px;
+}
+
+.footer-links a {
+    color: #003399;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.steav-hr{
+    width: 60%;
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid #999;
+}
